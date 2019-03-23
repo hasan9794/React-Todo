@@ -1,0 +1,17 @@
+#title {
+    text-align: center;
+    font-weight: lighter;
+    color: whitesmoke;
+    font-size: 50px;
+    font-family: cursive;
+
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #2C3335;
+    height: "160px";
+    width: "100%";
+}

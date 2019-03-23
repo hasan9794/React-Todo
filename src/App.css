@@ -1,0 +1,98 @@
+
+*
+{
+  padding:0px;
+  margin:0px;
+}
+
+#all
+{
+  
+  display:block;
+  
+  height:inherit;
+  
+}
+
+.inputBox
+{
+  margin-top:3%;
+  margin-left: 30%;
+  width: 40%;
+  box-shadow: 2px 2px 2px 2px rgb(121, 121, 170);
+  height: 40px;
+  font-weight: 30px;
+  text-indent: 3px;
+}
+
+#searchBtn{
+  border-radius: 3px;
+  border: none;
+  background-color: rgb(165, 192, 223);
+  cursor: pointer;
+  box-shadow: 1px 1px 1px 1px rgb(107, 107, 107);
+  width: 5%;
+  height: 40px;
+}
+
+#add
+{
+  margin-left: 30%;
+  margin-top:8px;
+  border-radius: 3px;
+  border: none;
+  background-color: rgb(165, 192, 223);
+  cursor: pointer;
+  box-shadow: 1px 1px 1px 1px rgb(107, 107, 107);
+  width:40%;
+  height: 30px;
+}
+
+ul
+{
+  margin-top:30px;
+}
+li
+{
+  text-decoration: none;
+  list-style: none;
+  margin-left: 30%;
+  font-weight: 30px;
+  border:1px solid gray;
+  border-radius: 3px;
+  width:40%;
+  text-indent: 5px;
+  font-size: 20px;
+  padding: 4px;
+}
+
+.ui
+{
+float: right;
+padding: 1px;
+height: inherit;
+margin-left: 1%;
+
+}
+
+.inputSearch{
+  width: "35%";
+  border-radius: 10px; 
+}
+
+@media only screen and (max-width: 1000px) {
+  .inputSearch{
+    width: 60%;
+  }
+
+  .inputBox
+  {
+    width:80%;
+    margin-left:10%;
+  }
+  li
+  {
+    width:70%;
+    margin-left:15%;
+  }
+}
